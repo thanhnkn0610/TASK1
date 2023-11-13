@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "What is the definition of the word intelligent?",
+      "choices": [
+        "A. Having a high level of intelligence and mental capacity",
+        "B. Having a low level of intelligence and mental capacity",
+        "C. Having average intelligence and mental capacity",
+        "D. Having no intelligence or mental capacity"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the synonym of intelligent?",
+      "choices": [
+        "A. Stupid",
+        "B. Clever",
+        "C. Dull",
+        "D. Ignorant"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the antonym of intelligent?",
+      "choices": [
+        "A. Dumb",
+        "B. Wise",
+        "C. Slow",
+        "D. Thoughtless"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a common example of an intelligent person?",
+      "choices": [
+        "A. A person who excels in academics",
+        "B. A person who is always making mistakes",
+        "C. A person with a low IQ",
+        "D. A person who lacks knowledge"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a characteristic of an intelligent person?",
+      "choices": [
+        "A. Laziness",
+        "B. Quick thinking",
+        "C. Inability to learn",
+        "D. Lack of curiosity"
+      ],
+      "answer": "B"
+    }
+  ]
+}
