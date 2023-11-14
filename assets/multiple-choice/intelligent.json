@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following best describes the word 'intelligent'?",
+      "choices": [
+        "A. Stupid",
+        "B. Lazy",
+        "C. Smart",
+        "D. Clumsy"
+      ],
+      "correct_answer": "C. Smart"
+    },
+    {
+      "question": "An intelligent person is someone who ____. ",
+      "choices": [
+        "A. Lacks knowledge",
+        "B. Has a high IQ",
+        "C. Is physically strong",
+        "D. Is uneducated"
+      ],
+      "correct_answer": "B. Has a high IQ"
+    },
+    {
+      "question": "Which of the following is a synonym for 'intelligent'?",
+      "choices": [
+        "A. Dull",
+        "B. Clever",
+        "C. Ignorant",
+        "D. Foolish"
+      ],
+      "correct_answer": "B. Clever"
+    },
+    {
+      "question": "An intelligent decision is one that is _______.",
+      "choices": [
+        "A. Random",
+        "B. Careless",
+        "C. Informed",
+        "D. Impulsive"
+      ],
+      "correct_answer": "C. Informed"
+    },
+    {
+      "question": "Which of the following is an antonym for 'intelligent'?",
+      "choices": [
+        "A. Bright",
+        "B. Dumb",
+        "C. Quick",
+        "D. Wise"
+      ],
+      "correct_answer": "B. Dumb"
+    }
+  ]
+}

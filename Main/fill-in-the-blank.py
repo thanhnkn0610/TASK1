@@ -2,17 +2,18 @@ from openai import OpenAI
 import json
 import os
 
-#var
+#var 
 word = 'intelligent'
 n = 5 #number questions
-export_url = './TASK1/assets/multiple-choice/' + word +'.json'
-promt = 'Create '+ str(n) +' multiple-choice question for learning the new vocab word: '+ word + ' and give me answers for each question. Change it to json format.'
+export_url = './TASK1/assets/fill-in-the-blank/' + word +'.json'
 
 #connect to openai
 os.environ['OPENAI_API_KEY'] = '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'
 client = OpenAI()
 
-#generate text           
+#generate text
+promt = 'Create only'+ str(n) +' simple sentences containing the new vocab word: '+ word + '. Change it to JSON format.'
+        
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
   messages=[
@@ -21,6 +22,7 @@ completion = client.chat.completions.create(
   ]
 )
 json_object = completion.choices[0].message.content
+json_object = json_object.replace(word, '___')
 
 #to json
 with open(export_url, "w") as outfile:
